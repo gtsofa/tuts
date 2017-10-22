@@ -3,8 +3,7 @@ class Calculator(object):
         number_types = (int, float, complex)
 
         if isinstance(a, number_types) and isinstance(b, number_types):
-            print ('A is: {}'.format(a))
-            print ('B is: {}'.format(b))
+            import pdb; pdb.set_trace()
             result =  a - b
             print ('Result is: {}'.format(result))
             return result
