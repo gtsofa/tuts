@@ -4,7 +4,7 @@ class Calculator(object):
 
         if isinstance(a, number_types) and isinstance(b, number_types):
             import pdb; pdb.set_trace()
-            result =  a - b
+            result =  a + b
             print ('Result is: {}'.format(result))
             return result
         else:
