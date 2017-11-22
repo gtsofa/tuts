@@ -1,4 +1,4 @@
-age = 24
-message = "Happy " + age + "rd Birthday!"
+age = 23
+message = "Happy " + str(age) + "rd Birthday!"
 
 print(message)
