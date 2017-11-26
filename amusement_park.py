@@ -10,10 +10,25 @@ Admission for anyone age 18 or older is $10.
 How can we use an if statement to determine a person’s admission rate?
 
 """
+# age = 4
+# if age < 4:
+#     print("Your admission charge is kshs 0.")
+# elif age < 18:
+#     print("Your admission charge is kshs 500.")
+# else:
+#     print("Your admission charge is kshs 1000.")
+
+#refactored code
+
 age = 4
+
 if age < 4:
-    print("Your admission charge is kshs 0.")
+    price = 0
+
 elif age < 18:
-    print("Your admission charge is kshs 500.")
+    price = 500
+
 else:
-    print("Your admission charge is kshs 1000.")
+    price = 1000
+
+print("Your admission cost is kshs" + str(price) + ".") 
