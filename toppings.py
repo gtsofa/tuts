@@ -11,6 +11,10 @@
 # print("\nFinished making your pizza.")
 
 #multiple lists
+"""
+each item in requested_toppings is checked against the
+list of available toppings before it’s added to the pizza:
+"""
 available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra cheese']
 requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
 
