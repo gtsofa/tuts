@@ -7,5 +7,6 @@ favourite_languages = {
     'eunice' : 'ruby',
 }
 print("The following languages have been mentioned:")
-for language in favourite_languages.values():
+#set eliminate duplicate elements and make them unique.
+for language in set(favourite_languages.values()):
     print(language.title())
