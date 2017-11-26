@@ -10,6 +10,7 @@ each user:
 • Otherwise, print a generic greeting, such as Hello Eric, thank you for log-
     ging in again.
 """
+#first we need to check the lists if it's not empty then jump into right in
 usernames = ['admin', 'julius', 'tsofa', 'peter', 'samuel', 'daktari']
 for username in usernames:
     if username == 'admin':
