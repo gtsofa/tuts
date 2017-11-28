@@ -15,6 +15,11 @@ users = {
         'lastname': 'dindi',
         'location': 'busia',
     },
+    'pish': {
+        'firstname': 'peter',
+        'lastname': 'wafula',
+        'location': 'dooni',
+    },
 
 }
 
