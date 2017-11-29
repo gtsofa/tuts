@@ -3,9 +3,18 @@
 prompt = "\n Tell me something that i will not forget."
 prompt += "\n enter 'quit' to end the program. " 
 
-message = ""
-while message != 'quit':
+active = True
+
+while active:
     message = input(prompt)
-    print(message)
+
+
+    if message == 'quit':
+        active = False
+    else:
+        print(message)
+            
+        
+    
 
 
