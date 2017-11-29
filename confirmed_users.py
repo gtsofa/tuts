@@ -2,6 +2,7 @@
 unconfirmed_users = ['tsofa', 'giulio', 'peter', 'sarah']
 confirmed_users = []
 
+#when the unconfirmed_users become empty the loop stops.
 while unconfirmed_users:
     current_user = unconfirmed_users.pop()
 
