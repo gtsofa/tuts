@@ -1,20 +1,29 @@
 #dictionary containing a list
-favourite_languages = {
-    'julius': ['c#', 'ruby', 'python'],
-    'sarah': ['statistics'],
-    'daktari':['java', 'python'],
-    'peter': ['php', 'photoshop', 'python'],
-    }
+
+from collections import OrderedDict
+
+favourite_languages = OrderedDict()
+
+favourite_languages['julius'] = 'c#'
+favourite_languages['sarah'] = 'stats'
+favourite_languages['daktari'] = 'java'
+
+# favourite_languages = {
+#     'julius': ['c#', 'ruby', 'python'],
+#     'sarah': ['statistics'],
+#     'daktari':['java', 'python'],
+#     'peter': ['php', 'photoshop', 'python'],
+#     }
 
 for name, languages in favourite_languages.items():
     if len(languages) <= 1:
-        print(name.title() + "'s favourite language is:")
+        print("\n" + name.title() + "'s favourite language is:")
         
     else:
         print("\n" + name.title() +"'s favourite languages are:")
      
     for language in languages:
-        print(language.title())
+        print("*" + language.title())
         
 
 

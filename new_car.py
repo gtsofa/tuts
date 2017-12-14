@@ -1,7 +1,9 @@
 #a Car class
-"""A class to represent a car model"""
+"""A class that can be ussed to represent a car."""
+
 
 class Car():
+    """A simple model to represent a car."""
 
     def __init__(self, make, model, year):
         """Initialize attributes to describe a car"""
