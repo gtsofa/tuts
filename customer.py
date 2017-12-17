@@ -15,8 +15,8 @@ class Customer(object):
         self.balance -= amount
         return self.balance
 
-        pass
+        
     def deposit(self, amount):
         self.balance += amount
         return self.balance
-        pass
+        

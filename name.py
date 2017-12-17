@@ -1,5 +1,11 @@
-name = "ada lovelace"
-print(name.title())
 
-message = "Hello Eric, would you like to learn some Python today?"
-print(message)
+def get_formatted_name(first_name, last_name, middle_name=""):
+    """Generate a neatly formatted full name"""
+    if middle_name == '':#if middle_name:
+        full_name = first_name + ' ' + last_name
+    else:
+        full_name = first_name + ' ' + middle_name + ' ' + last_name
+    #print(full_name.title())
+    return full_name.title()
+    
+#get_formatted_name('tsofa', 'nyule', 'julius')
