@@ -9,3 +9,5 @@ def get_formatted_name(first_name, last_name, middle_name=""):
     return full_name.title()
     
 #get_formatted_name('tsofa', 'nyule', 'julius')
+#get_formatted_name('sarah', 'munga')
+#get_formatted_name('samuel', 'baya', 'kitsao')

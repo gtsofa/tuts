@@ -8,7 +8,7 @@ class NameTestCase(unittest.TestCase):
 
     def test_first_last_name(self):
         """Do names like 'Julius Nyule' work? """
-        formatted_name = get_formatted_name('julius', 'nyule')
+        formatted_name = get_formatted_name('Julius', 'nyule')#call function we want to test & store a return value that we'are interested in testing. 
         self.assertEqual(formatted_name, 'Julius Nyule')
 
     def test_first_last_middle_name(self):
