@@ -1,7 +1,7 @@
 #This tests name program if it works as expected.
 import unittest
 
-from name import get_formatted_name
+from name import *
 
 class NameTestCase(unittest.TestCase):
     """Tests for 'name.py'. """
@@ -15,5 +15,8 @@ class NameTestCase(unittest.TestCase):
         """Do names like 'Julius Tsofa Nyule' work? """
         formatted_name = get_formatted_name('julius', 'nyule', 'tsofa')
         self.assertEqual(formatted_name, 'Julius Tsofa Nyule')
+        
+if __name__=='__main__':
+    unittest.main()
 
-unittest.main()
+#unittest.main()
