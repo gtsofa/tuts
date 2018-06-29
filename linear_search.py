@@ -9,7 +9,7 @@ def linear_search(list_values, target_item, start=0):
     if list_values[i] == target_item:
       return i
     
-    return -1
+    return 'not found!'
  
 # test the implementation
 list_values = [5, 34, 65, 12, 77, 35]
